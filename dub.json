@@ -1,0 +1,15 @@
+{
+	"name": "handlebarsd",  
+	"description": "Compiled Handlebars for D",
+	"authors": ["Jakob Demler"],
+  "targetType": "sourceLibrary",
+	"dependencies": { 
+    "pegged": "*" 
+	},
+  "configurations" : [
+    {
+      "name": "unittest",
+      "dflags": ["-J."]
+    }
+  ]
+}
